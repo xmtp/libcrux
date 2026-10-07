@@ -6,7 +6,7 @@ homepage = "https://github.com/cryspen/libcrux"
 license = "Apache-2.0"
 name = "lib25519"
 publish = false
-readme = "Readme.md"
+readme = false
 repository = "https://github.com/cryspen/libcrux"
 version = "0.0.1"
 
