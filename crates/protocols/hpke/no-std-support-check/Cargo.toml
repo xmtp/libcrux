@@ -6,7 +6,7 @@ version = "0.0.0"
 
 [dependencies]
 hpke-rs = { path = ".." }
-hpke-rs-crypto = { path = "../traits" }
+hpke-rs-crypto = { version = "=0.7.0", default-features = false }
 hpke-rs-rust-crypto = { path = "../rust_crypto_provider" }
 hpke-rs-libcrux = { path = "../libcrux_provider" }
 

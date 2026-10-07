@@ -16,7 +16,8 @@ libfuzzer-sys = "0.3"
 path = ".."
 
 [dependencies.hpke-rs-crypto]
-path = "../traits"
+version = "=0.7.0"
+default-features = false
 
 [dependencies.hpke-rs-rust-crypto]
 path = "../rust_crypto_provider"
